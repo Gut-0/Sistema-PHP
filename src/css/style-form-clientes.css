@@ -1,0 +1,24 @@
+body {
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,63,157,1) 34%, rgba(0,212,255,1) 100%);
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid white !important;
+    color: antiquewhite;
+}
+
+button:hover {
+    transform: translateX(1px) scale(1.1);
+    transition: transform 1s;
+}
+
+form, input::placeholder  {
+    color: white;
+}
+
+.card {
+    border: 3px solid white !important;
+}
